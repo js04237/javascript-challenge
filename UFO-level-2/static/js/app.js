@@ -37,7 +37,7 @@ function runEnter() {
     d3.event.preventDefault();
   
     // Get the key & value property of the input element
-    // Convert input elements to lower case (to match the table data)
+    // Convert inputgit c elements to lower case (to match the table data)
     var key = d3.select(this).property('id');
     var value = d3.select(this).property('value').toLowerCase();
 
